@@ -1,1 +1,1 @@
-# url_shortner_backend
+# This is a project to shorten the web URL developed using Go
