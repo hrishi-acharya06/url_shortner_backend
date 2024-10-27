@@ -1,14 +1,14 @@
 package main
 
 import (
+	routerGroup "url_shortner/routes"
+
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	Initialize()
 	r := gin.Default()
-	r.GET("/", func(ctx *gin.Context) {
-		ctx.JSON(200, gin.H{"message": "This is go url shortner app"})
-	})
+	routerGroup.Route(r)
 	r.Run(":8083")
 }
