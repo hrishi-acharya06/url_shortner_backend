@@ -1,7 +1,13 @@
 {
+	"server_port": "8083",
 	"redis_host": "localhost",
 	"redis_port": "7777",
 	"redis_password": "",
 	"redis_db": "0",
-	"site_host": "http://localhost:8083/"
+	"site_host": "http://localhost:8083/",
+	"msql_host": "localhost",
+	"mysql_port": "3306",
+	"mysql_user": "url_shortner",
+	"mysql_password": "password@123",
+	"mysql_db_name": "url_shortner"
 }
