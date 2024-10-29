@@ -10,6 +10,7 @@ import (
 func Initialize() {
 	InitilizeEnv()
 	storage.InitializeStorage()
+	storage.MigrateDatabase()
 }
 
 func InitilizeEnv() {
